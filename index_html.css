@@ -1,0 +1,66 @@
+header{
+    background-color: rgb(245, 245, 245);
+
+}
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: #b695c0;
+    font-size: 1.60em;
+}
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+header .container{
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+}
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(245, 9, 9);
+
+}
+
+header a:hover{
+    color: #b695c0;
+}
+header .container{
+    flex-direction: row;
+    justify-content: space-between;
+}
+header nav {
+    flex-direction: row;
+    padding-bottom: 0;
+    padding-right: 20px;
+}
+
+#titulo1 {
+    background-image: url('https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT66Av8YSDZwaz12QUygyEdP5hhR08aHujlBxyyWPEkD3AbsyBl');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Ocupa toda la altura visible del navegador */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-size: 2em;
+    margin: 0; /* Elimina cualquier margen */
+    padding: 0; /* Elimina cualquier padding */
+}
+h1 {
+    font-size: 36px; /* Ajusta el tamaño según tu preferencia */
+    font-weight: bold; /* Puedes añadir otros estilos, como el grosor */
+    color: #333; /* Color del texto */
+    text-align: center; /* Alineación del texto */
+    margin: 20px 0; /* Espaciado superior e inferior */
+}
+
+ 

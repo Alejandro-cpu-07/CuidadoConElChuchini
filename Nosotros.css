@@ -1,0 +1,67 @@
+header{
+    background-color: rgb(245, 245, 245);
+
+}
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: #b695c0;
+    font-size: 1.60em;
+}
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+header .container{
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+}
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(245, 9, 9);
+
+}
+
+header a:hover{
+    color: #b695c0;
+}
+header .container{
+    flex-direction: row;
+    justify-content: space-between;
+}
+header nav {
+    flex-direction: row;
+    padding-bottom: 0;
+    padding-right: 20px;
+}
+h1 {
+    font-size: 36px; /* Ajusta el tamaño según tu preferencia */
+    font-weight: bold; /* Puedes añadir otros estilos, como el grosor */
+    color: #333; /* Color del texto */
+    text-align: center; /* Alineación del texto */
+    margin: 20px 0; /* Espaciado superior e inferior */
+}
+
+
+/* Estilos para los recuadros */
+.box {
+    border: 2px solid #333;         /* Borde del recuadro */
+    padding: 20px;                  /* Espaciado interno */
+    margin: 20px 0;                 /* Espaciado entre recuadros */
+    border-radius: 8px;             /* Bordes redondeados */
+    background-color: #f9f9f9;      /* Color de fondo del recuadro */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para darle profundidad */
+}
+
+/* Estilos para títulos dentro de los recuadros */
+.box h2 {
+    font-size: 24px;
+    color: #333;
+    margin-top: 0;
+}
